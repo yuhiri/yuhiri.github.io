@@ -6,7 +6,7 @@
   width: 400px;
 }
 #veditor {
-  background-image: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/comment-bg.png);
+  background-image: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/comment-bg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -890,7 +890,7 @@ template {
 a {
   background-color: transparent;
   text-decoration: none;
-  cursor: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/cursor/ayuda.cur),
+  cursor: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/cursor/ayuda.cur),
     auto;
 }
 a:active,
@@ -898,7 +898,7 @@ a:hover {
   outline: 0;
 }
 a:active {
-  cursor: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/cursor/work.cur),
+  cursor: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/cursor/work.cur),
     alias;
 }
 abbr[title] {
@@ -1045,7 +1045,7 @@ h6 {
 }
 p {
   margin-bottom: 1.5em;
-  cursor: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/cursor/texto.cur),
+  cursor: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/cursor/texto.cur),
     auto;
 }
 cite,
@@ -1146,7 +1146,7 @@ html {
 body {
   background: #fff;
   background-attachment: fixed;
-  cursor: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/cursor/normal.cur),
+  cursor: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/cursor/normal.cur),
     auto;
 }
 blockquote:after,
@@ -2533,12 +2533,12 @@ h1.page-title.mb- {
   z-index: 99;
   width: 70px;
   height: 900px;
-  background: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/scroll.png)
+  background: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/scroll.png)
     no-repeat center;
   background-size: contain;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  cursor: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/cursor/No_Disponible.cur),
+  cursor: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/cursor/No_Disponible.cur),
     auto;
   opacity: 1;
 }
@@ -3135,7 +3135,7 @@ h1.page-title.mb- {
   height: 40px;
   text-align: center;
   line-height: 45px;
-  background-image: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/disqus-preloader.svg);
+  background-image: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/disqus-preloader.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -3956,7 +3956,7 @@ a.page-numbers {
   background-color: rgba(255, 255, 255, 0);
 }
 .comment-respond textarea {
-  background-image: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/comment-bg.png);
+  background-image: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/comment-bg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -4254,14 +4254,14 @@ li.feature-2 {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .headertop.filter-grid::before {
-  background-image: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/grid.png);
+  background-image: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/grid.png);
 }
 .headertop.filter-dot::before {
-  background-image: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/dot.gif);
+  background-image: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/dot.gif);
 }
 @media (max-width: 860px) {
   .headertop.filter-dot::before {
-    background-image: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/grid.png);
+    background-image: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/grid.png);
   }
 }
 .headertop-bar::after {
@@ -4324,7 +4324,7 @@ li.feature-2 {
   }
   .top-social_v2 li {
     margin-right: 0 !important;
-    cursor: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/cursor/ayuda.cur),
+    cursor: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/cursor/ayuda.cur),
       auto !important;
   }
 }
@@ -5019,7 +5019,7 @@ i.iconfont.down {
   color: #66ccff;
 }
 #pagination .loading {
-  background: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/wordpress-rotating-ball-o.svg);
+  background: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/wordpress-rotating-ball-o.svg);
   background-position: center;
   background-repeat: no-repeat;
   color: #555;
@@ -5862,7 +5862,7 @@ i.iconfont.down {
 .oshimai {
   height: 2em;
   width: 6.11em;
-  background: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/oshimai.svg);
+  background: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/oshimai.svg);
   background-size: cover;
   margin: 0 auto;
 }
@@ -6008,7 +6008,7 @@ i.iconfont.down {
   border: 0;
   color: #fff;
   line-height: 1;
-  cursor: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/cursor/No_Disponible.cur),
+  cursor: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/cursor/No_Disponible.cur),
     auto;
   font-size: 14px;
   font-weight: 500;
@@ -6143,7 +6143,7 @@ input.botui-actions-text-input::-moz-focus-inner {
   padding: 0;
 }
 button.botui-actions-buttons-button {
-  cursor: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/cursor/No_Disponible.cur),
+  cursor: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/cursor/No_Disponible.cur),
     auto;
   -webkit-appearance: button;
   appearance: button;
@@ -7435,7 +7435,7 @@ a.toc-link {
 .emotion-item,
 .on-hover,
 .tieba-container span {
-  cursor: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/cursor/No_Disponible.cur),
+  cursor: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/cursor/No_Disponible.cur),
     auto;
 }
 .alignright {
@@ -7846,7 +7846,7 @@ a.toc-link {
   padding: 2px;
   text-shadow: none;
   border-radius: 0 0 5px 5px;
-  cursor: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/cursor/texto.cur),
+  cursor: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/cursor/texto.cur),
     auto;
 }
 .highlight-wrap code[data-rel]:before {
@@ -8213,7 +8213,7 @@ img[src*="#in-center"] {
 #banner_wave_1 {
   width: auto;
   height: 65px;
-  background: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/wave1.png)
+  background: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/wave1.png)
     repeat-x;
   position: absolute;
   bottom: 0;
@@ -8227,7 +8227,7 @@ img[src*="#in-center"] {
 #banner_wave_2 {
   width: auto;
   height: 80px;
-  background: url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/wave2.png)
+  background: url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/wave2.png)
     repeat-x;
   position: absolute;
   bottom: 0;

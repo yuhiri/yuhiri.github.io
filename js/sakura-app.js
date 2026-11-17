@@ -218,24 +218,24 @@ function imgError(ele, type) {
       if (ele.src.includes("https://cn.gravatar.com/avatar")) {
         ele.src = ele.src.replace(
           "https://cn.gravatar.com/avatar/",
-          "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/gravatar.jpg"
+          "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/gravatar.jpg"
         );
       } else {
         ele.src =
-          "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/default_avatar.jpg";
+          "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/default_avatar.jpg";
       }
       break;
     case 2:
       ele.src =
-        "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/default_gavatar.jpg";
+        "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/default_gavatar.jpg";
       break;
     case 3:
       ele.src =
-        "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/image-404.png";
+        "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/image-404.png";
       break;
     default:
       ele.src =
-        "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/image-404.png";
+        "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/image-404.png";
   }
 }
 mashiro_global.post_list_show_animation = new (function () {
@@ -538,15 +538,15 @@ function checkBgImgCookie() {
   if (bgurl != "") {
     if (
       bgurl ==
-        "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/themebg/sakura.png" ||
+        "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/themebg/sakura.png" ||
       bgurl ==
-        "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/themebg/plaid.jpg" ||
+        "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/themebg/plaid.jpg" ||
       bgurl ==
-        "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/themebg/star.png" ||
+        "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/themebg/star.png" ||
       bgurl ==
-        "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/themebg/point.png" ||
+        "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/themebg/point.png" ||
       bgurl ==
-        "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/themebg/little-monster.png"
+        "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/themebg/little-monster.png"
     ) {
       mashiro_global.variables.skinSecter = true;
       mashiro_global.variables.isNight = false;
@@ -633,23 +633,23 @@ $(document).ready(function () {
   }
   changeBG(
     "#sakura-bg",
-    "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/themebg/sakura.png"
+    "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/themebg/sakura.png"
   );
   changeBG(
     "#gribs-bg",
-    "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/themebg/plaid.jpg"
+    "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/themebg/plaid.jpg"
   );
   changeBG(
     "#pixiv-bg",
-    "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/themebg/star.png"
+    "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/themebg/star.png"
   );
   changeBG(
     "#KAdots-bg",
-    "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/themebg/point.png"
+    "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/themebg/point.png"
   );
   changeBG(
     "#totem-bg",
-    "https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/themebg/little-monster.png"
+    "https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/themebg/little-monster.png"
   );
   changeBGnoTrans("#bing-bg", "https://api.shino.cc/bing/");
   $(".skin-menu #white-bg").click(function () {
@@ -674,7 +674,7 @@ $(document).ready(function () {
     mashiro_global.variables.isNight = true;
     $("body").css(
       "background-image",
-      "url(https://gcore.jsdelivr.net/gh/talentestors/cdn@latest/img/other/starry_sky.png)"
+      "url(https://gcore.jsdelivr.net/gh/yuhiri/cdn@latest/img/other/starry_sky.png)"
     );
     $(".blank").css("background-color", "rgba(255,255,255,.8)");
     $("#night-mode-cover").css("visibility", "visible");
@@ -1998,7 +1998,7 @@ $(function () {
     "https://2heng.xin/"
   );
   console.log(
-    "%c talentestors %c",
+    "%c yuhiri %c",
     "background:#24272A; color:#ffffff",
     "",
     "https://www.yuhiri.me/"
@@ -2007,7 +2007,7 @@ $(function () {
     "%c Github %c",
     "background:#24272A; color:#ffffff",
     "",
-    "https://github.com/talentestors/"
+    "https://github.com/yuhiri/"
   );
 });
 var isWebkit = navigator.userAgent.toLowerCase().indexOf("webkit") > -1,
