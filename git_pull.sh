@@ -2,16 +2,9 @@
 set -euo pipefail
 
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-REPO_DIR=""
+REPO_DIR=$(find "$SCRIPT_DIR" -type d -name yuhiri.github.io -print -quit 2>/dev/null)
 
-for candidate in "$SCRIPT_DIR" "$SCRIPT_DIR/yuhiri.github.io" "$SCRIPT_DIR/../yuhiri.github.io"; do
-  if [ -d "$candidate/.git" ]; then
-    REPO_DIR=$(cd "$candidate" && pwd)
-    break
-  fi
-done
-
-if [ -z "$REPO_DIR" ]; then
+if [ -z "$REPO_DIR" ] || ! git -C "$REPO_DIR" rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   echo "fail: repository not found near $SCRIPT_DIR" >&2
   exit 1
 fi
