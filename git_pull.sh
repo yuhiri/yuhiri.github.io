@@ -8,11 +8,11 @@ exec 9>.git-pull.lock
 flock 9
 
 if ! git gc; then
-  echo "git gc failed" >&2
+  echo "fail: git gc" >&2
   exit 1
 fi
 
 if ! git pull --ff-only origin main; then
-  echo "git pull failed" >&2
+  echo "fail: git pull" >&2
   exit 1
 fi
