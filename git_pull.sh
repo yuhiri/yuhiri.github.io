@@ -13,6 +13,6 @@ if ! git gc; then
 fi
 
 if ! git pull --ff-only origin main; then
-  echo "git pull 失败" >&2
+  echo "git pull failed" >&2
   exit 1
 fi
