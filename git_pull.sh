@@ -2,10 +2,17 @@
 set -euo pipefail
 
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-REPO_DIR=$(cd "$SCRIPT_DIR/.." && pwd)/yuhiri.github.io
+REPO_DIR=""
 
-if [ ! -d "$REPO_DIR/.git" ]; then
-  echo "fail: repository not found: $REPO_DIR" >&2
+for candidate in "$SCRIPT_DIR" "$SCRIPT_DIR/yuhiri.github.io" "$SCRIPT_DIR/../yuhiri.github.io"; do
+  if [ -d "$candidate/.git" ]; then
+    REPO_DIR=$(cd "$candidate" && pwd)
+    break
+  fi
+done
+
+if [ -z "$REPO_DIR" ]; then
+  echo "fail: repository not found near $SCRIPT_DIR" >&2
   exit 1
 fi
 
