@@ -12,7 +12,17 @@ if ! git gc; then
   exit 1
 fi
 
-if ! git pull --ff-only origin main; then
-  echo "fail: git pull" >&2
+if ! git fetch --prune origin; then
+  echo "fail: git fetch" >&2
+  exit 1
+fi
+
+if ! git reset --hard origin/main; then
+  echo "fail: git reset" >&2
+  exit 1
+fi
+
+if ! git clean -fd; then
+  echo "fail: git clean" >&2
   exit 1
 fi
