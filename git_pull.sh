@@ -8,7 +8,7 @@ exec 9>.git-pull.lock
 flock 9
 
 if ! git gc; then
-  echo "git gc 失败" >&2
+  echo "git gc failed" >&2
   exit 1
 fi
 
