@@ -7,4 +7,12 @@ cd "$SCRIPT_DIR"
 exec 9>.git-pull.lock
 flock 9
 
-git pull --ff-only origin main
+if ! git gc; then
+  echo "git gc 失败" >&2
+  exit 1
+fi
+
+if ! git pull --ff-only origin main; then
+  echo "git pull 失败" >&2
+  exit 1
+fi
